@@ -41,7 +41,7 @@ with st.sidebar:
     ---
     **📄 Licens:**  
     Dette projekt bruger [MIT-licensen](https://opensource.org/licenses/MIT).  
-    Udviklere: OpenAI ChatGPT og Jens Kaalby Thomsen
+    Udvikler: Jens Kaalby Thomsen
     """)
 
 def generer_tal():
