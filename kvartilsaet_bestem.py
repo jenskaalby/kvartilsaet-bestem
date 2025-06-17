@@ -93,7 +93,7 @@ rigtige = [r_min, r_q1, r_med, r_q3, r_max, r_iqr, r_var]
 labels = ["Minimum", "Q1", "Median", "Q3", "Maksimum", "Kvartilbredde", "Variationsbredde"]
 keys = ["min", "q1", "median", "q3", "maks", "iqr", "variation"]
 
-st.title("Statistikopgave: Kvartiler og variation")
+st.title("Kvartilsæt, variations- og kvartilbredde")
 st.write("### Rækken af tal (i tilfældig rækkefølge):")
 st.markdown(f'<div class="tal-liste">{", ".join(map(str, tal))}</div>', unsafe_allow_html=True)
 
